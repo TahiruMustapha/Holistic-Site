@@ -1,8 +1,13 @@
 import React from 'react'
+import { useState } from 'react'
 import { FaArrowDown } from 'react-icons/fa'
 
 import './Apply.css'
 const Apply = () => {
+    const[name,setName] = useState('')
+    const[email,setEmail] = useState('')
+    const[phone,setPhone] = useState('')
+    const[program,setProgram] = useState('')
 const handleSubmit = (e) =>{
     const formEl = document.querySelector('form')
 e.preventDefault();
@@ -12,6 +17,10 @@ e.preventDefault();
     method:'POST',
     body:formData
  })
+ setName('');
+ setEmail('');
+ setPhone('');
+ setProgram('');
 }
   return (
     <div className='apply'>
@@ -30,7 +39,8 @@ e.preventDefault();
                         <p>
                             <label>Name</label>
                             <input type="text"  id='apply-input'
-                            
+                            value={name}
+                            onChange = {(e)=>setName(e.target.value)}
                             name = 'name'
                             />
                         </p>
@@ -38,14 +48,16 @@ e.preventDefault();
                             <label>Email</label>
                             <input type="email" id='apply-input'
                             name='email'
-  
+                            value={email}
+                            onChange = {(e)=>setEmail(e.target.value)}
                             />
                         </p>
                         <p>
                             <label>Phone</label>
                              <input type="number" id='apply-input'
                              name='phone'
-                              
+                             value={phone}
+                             onChange = {(e)=>setPhone(e.target.value)} 
                              />
                         </p>
                         <p>
@@ -53,7 +65,8 @@ e.preventDefault();
                             <label>What program are you interested in?</label>
                             <select id='drop-down-bnt'
                             name='program'
-                           
+                            value={program}
+                            onChange = {(e)=>setProgram(e.target.value)}
                             >
                             {/* <div className='apply-dropdown'></div> */}
                                <option> Certificate In Pastorial Counsesillig.</option>

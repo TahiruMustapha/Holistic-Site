@@ -135,6 +135,16 @@
     height: 450px;
     margin-top: 10px;
 }
+@media(max-width:1024){
+    .gallery1{
+        background: url(./about-img/img5.jpeg);
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+        background-size: calc(100vw) calc(100vh);
+        /* margin-bottom: -16rem; */
+        
+        }
+}
 @media(max-width:650px){
     .about-info{
         display: flex;
@@ -229,9 +239,10 @@
         align-items: center;
         flex-direction: column;
         justify-content: center;
-        height: fit-content;
+        height:60rem;
         width: 100%;
-        padding-bottom: 0;
+        
+        /* background-color: red; */
         
     }
     .about-details p{
@@ -256,14 +267,58 @@
     .ui-ux img{
         margin-left:-20px;
         margin-bottom: 20px;
+        height: 30%;
     }
+       .gallery1{
+        background: url(./about-img/img5.jpeg);
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+        background-size: calc(100vw) calc(65vh);
+        margin-bottom: -16rem;
+        }
+    .gallery{
+        height: fit-content;
+       
+    }
+
 }
-@media(max-width:280px){
+@media(max-width:320px){
+    .gallery1{
+        background: url(./about-img/img5.jpeg);
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+        background-size: calc(100vw) calc(65vh);
+        margin-bottom: -14rem;
+        }
     .speech-img img{
        
-       height: 300px;
+        height: max-content;
+        border-radius: 5px;
+     
+       
+       }
+       .about-info{
+         height:65rem;
+         width: 100%;
+     }
+}
+@media(max-width:280px){
+    .gallery1{
+        background: url(./about-img/img5.jpeg);
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+        background-size: calc(100vw) calc(60vh);
+        margin-bottom: -18rem;
+        }
+    .speech-img img{
+       
+       height: max-content;
        border-radius: 5px;
     
       
       }
+      .about-info{
+        height:70rem;
+        width: 100%;
+    }
 }

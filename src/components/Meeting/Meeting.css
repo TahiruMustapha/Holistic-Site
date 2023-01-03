@@ -65,3 +65,53 @@
        
     }
 }
+@media(max-width:450px){
+    .meeting{
+        background: url(./meeting-img/appointment.jpg);
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+        background-size: calc(100vw) calc(50vh);
+        /* margin-bottom: -18rem; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+     
+    }
+    #meeting-btn{
+        width: 40%;
+        padding: 10px 10px;
+        font-size: .8rem;
+    }
+    .meeting-text{
+        font-size: 1.3rem;
+        font-weight: 550;
+        margin-top: 10px;
+        
+    }
+}
+@media(max-width:320px){
+    .meeting{
+        background: url(./meeting-img/appointment.jpg);
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+        background-size: calc(100vw) calc(50vh);
+        /* margin-bottom: -18rem; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+     
+    }
+    #meeting-btn{
+        width: 50%;
+        padding: 10px 10px;
+        font-size: .8rem;
+    }
+    .meeting-text{
+        font-size: 1.2rem;
+        font-weight: 550;
+        margin-top: 10px;
+        
+    }
+}

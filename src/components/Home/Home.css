@@ -73,7 +73,7 @@
         margin-top: 15px;
         width: 150px;
     }
-    .main-home{
+    /* .main-home{
         background: url(./Home-img/counselor.jpg);
         background-repeat: no-repeat;
         background-position: 0px 0px;
@@ -83,5 +83,5 @@
         -moz-background-size: calc(100vw) calc(100vh);
         -o-background-size: calc(100vw) calc(100vh);
         background-size: calc(100vw) calc(100vh);
-        }
+        } */
 }

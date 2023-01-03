@@ -38,10 +38,10 @@ const NavBar = ({second}) => {
              <div className='small-screens-overlay flex-center slide-bottom'>
              <FaTimes className='overlay-close' onClick={()=>setOverlay(false)}/>
              <ul className='small-screens-links'>
-                 <li><Link to='/'>Home</Link></li>
-                 <li><Link to='/about'>About</Link></li>
-                 <li><Link to='/service'>Service</Link></li>
-                 <li><Link to='/contact'>Contact</Link></li>
+                 <li onClick={()=>setOverlay(false)} ><Link to='/'>Home</Link></li>
+                 <li onClick={()=>setOverlay(false)} ><Link to='/about'>About</Link></li>
+                 <li onClick={()=>setOverlay(false)} ><Link to='/service'>Service</Link></li>
+                 <li onClick={()=>setOverlay(false)} ><Link to='/contact'>Contact</Link></li>
                  <button className='btn' id='overlay-btn' onClick={()=> second(true)} >Book An Appointment</button>
              </ul>
          </div> 
