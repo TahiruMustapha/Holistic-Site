@@ -4,7 +4,7 @@ import logo from '../NavBar/logo/Logo.png'
 import TopNav from '../TopNav/TopNav'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
-import { FaHamburger, FaTimes } from 'react-icons/fa'
+import { FaBars, FaTimes } from 'react-icons/fa'
 const NavBar = ({second}) => {
   
   
@@ -32,7 +32,7 @@ const NavBar = ({second}) => {
         </ul>
       </div>
       <div className='small-screens-nav'>
-        <FaHamburger className='menu' onClick={()=>setOverlay(true)}/>
+        <FaBars className='menu' onClick={()=>setOverlay(true)}/>
          
           {overlay && (
              <div className='small-screens-overlay flex-center slide-bottom'>
