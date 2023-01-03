@@ -1,0 +1,356 @@
+/* .service{
+    height: 100vh;
+} */
+.service-bg{
+    height: 100vh;
+    background:linear-gradient(#08394e96,#08394e3f), url(./service-img/img2.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    
+}
+/* .service-bg::after{
+    content: "";
+    background-color: rgba(0, 0, 255, 0.685);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0.25;
+} */
+.service-bg h3{
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.service-bg p{
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.service-details{
+    height: 100vh;
+}
+.service-details div:nth-child(1){
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+}
+.service-details p:hover{
+    color: var(--yellow-text); 
+}
+.current-service{
+    border-bottom: 2px solid var(--yellow-text);
+    width: 100%; 
+    font-size: 1.5rem;
+    margin-top: 20px;
+    padding-bottom: 10px; 
+     
+}
+
+.coaching-service{
+    width: 100%;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.coaching-service:hover{
+    border-bottom: 2px solid var(--yellow-text);
+    width: 100%;
+}
+.training-service{
+  width: 100%;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+.training-service:hover{
+    border-bottom: 2px solid var(--yellow-text);
+    width: 100%;  
+}
+.counselling-service{
+    width: 15%;
+}
+
+.counselling{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    position: absolute;
+    top: 130%; 
+    left: 1%;   
+}
+.counselling-div{
+   margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 600px;
+}
+.counselling-div i{
+    color: black;
+    
+}
+.counselling-div h3{
+    color: var(--yellow-text);
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+.counselling-div p{
+ color: #444;
+ font-size: 1.5rem;
+ margin-top: 30px;
+ 
+}
+.counselling-div p:hover{
+    color: #444;
+}
+.counselling div:nth-child(2){
+    box-shadow:2px 3px 25px rgba(0, 0, 0, 0.377);
+    padding: 20px;
+    width: 300px;
+    height: 350px;
+}
+.counselling div:nth-child(2) h2{
+     margin-bottom: 20px;
+     color: #444;
+}
+.counselling div:nth-child(2) p{
+    color: #444;
+    line-height: 30px;
+    font-weight: 600;
+}
+@media(max-width:1150px){
+    .counselling{
+        display: flex;
+        align-items: center;
+        height: fit-content;
+        width: 80%;
+        position: absolute;
+        top: 115%; 
+        left: 5%; 
+        
+    }
+    .counselling-div{
+        width: 100%;
+        margin-top: 10px; 
+    }
+    .counselling-div p{
+        line-height:30px;
+    }
+
+    .service-details{
+        
+        height: 50vh;
+    }
+}
+
+/* @media(max-width:1150px){
+    .counselling{
+       
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: fit-content;
+        width: 80%;
+        position: absolute;
+        top: 150%; 
+        left: 10%; 
+    }
+} */
+@media(max-width:1024px){
+    .counselling{
+       
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        height: fit-content;
+        width: 80%;
+        position: absolute;
+        top: 130%; 
+        left: 10%; 
+    }
+}
+@media(max-width:650px){
+    
+    .counselling{
+       
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: fit-content;
+        width: 80%;
+        position: absolute;
+        top: 150%; 
+        left: 2%; 
+    }
+    .counselling-div{
+        width: 100%;
+        margin-top: 20px; 
+    }
+    .counselling-div{
+        width: 100%;
+        margin-top: 20px;
+       
+    }
+    
+    .counselling div:nth-child(2) p{
+        color: #444;
+    }
+    
+    .counselling div:nth-child(2){
+        padding: 10px;
+        width: 200px;
+        height: 300px;
+        margin-top: 250px;
+        margin-bottom: 20px;
+        /* background-color: red; */
+    }
+    .current-service{
+        width: 75%;
+        font-size: .6rem;
+        margin-top: 10px;
+        padding-bottom: 10px; 
+         
+    }
+    .coaching-service{
+        /* width: 100%; */
+        font-size: .6rem;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+    .training-service{
+        /* width: 100%; */
+        font-size: .6rem;
+        margin-top: 10px;
+        padding-bottom: 10px;
+      }
+      .counselling-service{
+        width: 30%;
+    }
+}
+@media(max-width:550px){
+    
+    .counselling{
+       
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: fit-content;
+        width: 80%;
+        position: absolute;
+        top: 160%; 
+        left: 10%; 
+      
+        
+    }
+    .counselling div:nth-child(2){
+        /* background-color: red; */
+        width: 80%;
+    }
+}
+@media(max-width:450px){
+    .counselling{
+       
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: fit-content;
+        width: 80%;
+        position: absolute;
+        top: 140%; 
+        left: 5%; 
+    }
+    .counselling-div i{
+        
+        font-size: .8rem;
+    }
+    .counselling-div h3{
+        
+        font-size: 1.1rem;
+        
+    }
+    .counselling-div p{
+        font-size: 1.1rem;
+        line-height: normal;
+        margin-top: 5px;
+    }
+    .service-details{
+        height: 100vh;
+       
+    }
+    .counselling div:nth-child(2){
+        margin-top: 170px;
+    }
+    .counselling div:nth-child(2) h2{
+        font-size: 1.1rem;
+    }
+    .counselling div:nth-child(2) p{
+        font-size: .8rem;
+    }
+}
+@media(max-width:380px){
+    .counselling{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: fit-content;
+        width: 80%;
+        position: absolute;
+        top: 155%; 
+        left: 2%; 
+        
+    }
+    .service-details{
+        
+        height: 120vh;
+    }
+}
+@media(max-width:280px){
+    .counselling{
+       
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: fit-content;
+        width: 80%;
+        position: absolute;
+        top: 160%; 
+        left: 5%;
+        
+    }
+    .counselling-div i{
+        
+        font-size: .8rem;
+    }
+    .counselling-div h3{
+        
+        font-size: 1.1rem;
+        
+    }
+    .counselling-div p{
+        font-size: 1.1rem;
+        line-height: normal;
+        margin-top: 5px;
+    }
+    .service-details{
+        height: 100vh;
+    }
+    .counselling div:nth-child(2){
+        margin-top: 170px;
+    }
+    .counselling div:nth-child(2) h2{
+        font-size: 1.1rem;
+    }
+    .counselling div:nth-child(2) p{
+        font-size: .8rem;
+    }
+}
+
+
+

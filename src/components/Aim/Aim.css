@@ -1,0 +1,259 @@
+.aim{
+    background-color: var(--green2);
+    height: fit-content;
+    padding: 80px;
+}
+.aim-heading{
+    font-size: 2rem;
+    color: var(--yellow-text);
+   text-align: center;
+   padding-top: 30px;
+}
+.vission_mission{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.ourVision{
+    margin-top: 70px;
+   border-top: 3px solid var(--yellow-text);
+    padding: 70px;
+    height: fit-content;
+    width: 500px;
+    background-color: var(--green1);
+    box-shadow:2px 3px 25px rgba(0, 0, 0, 0.377);
+  
+}
+.ourVision_text{
+    font-size: 1.7rem;
+    text-align: center;
+    color: var(--yellow-text);
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    margin-bottom: 30px;
+}
+.ourVision span{
+    border-bottom: 6px solid var(--yellow-text);
+    display: flex;
+    width: 40px;
+    margin-right: 10px;
+}
+.ourVision-details{
+    display: flex;
+    align-items: center;
+    
+    margin-top: 0px;
+    /* background-color: red; */
+}
+.light{
+    padding: 30px;
+    box-shadow:2px 3px 25px rgba(0, 0, 0, 0.377);
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.ourVision-details-text{
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.objective{
+    padding: 70px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    border-top: 3px solid var(--yellow-text);
+    background-color: var(--green1);
+    box-shadow:2px 3px 25px rgba(0, 0, 0, 0.377);
+    height: fit-content;
+    text-align: center;
+    
+
+}
+.objective-details{
+    display: flex;
+    align-items: center;
+    
+}
+.light-img{
+    font-size: 80px;
+    color: var(--yellow-text);
+}
+.objective-details ul{
+    margin-left: 30px;
+    
+}
+.objective-details ul li{
+    text-align: left;
+    line-height: 30px;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.light-goal{
+    padding: 30px;
+    box-shadow:2px 3px 25px rgba(0, 0, 0, 0.377);
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 80px;
+}
+.light-goal-img{
+    font-size: 80px;
+    color: var(--yellow-text);
+}
+.objective_text{
+  
+    font-size: 1.7rem;
+    text-align: center;
+    color: var(--yellow-text);
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.objective span{
+    border-bottom: 6px solid var(--yellow-text);
+    display: flex;
+    width: 40px;
+    margin-right: 10px;
+}
+@media(max-width:1150px){
+     .vission_mission{
+        /* background-color: rebeccapurple; */
+        padding-left: 30px;
+     }
+     .ourVision{
+        /* background-color: red; */
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     .light{
+        /* background-color: green; */
+        padding: 10px;
+     }
+     .light-img{
+        font-size: 50px;
+    }
+    .objective{
+        /* background-color: rebeccapurple; */
+        width: 90%;
+        height: 380px;
+    }
+    .light-goal{
+        padding: 10px;
+    }
+     .light-goal-img{
+        font-size: 50px;
+    }
+    .aim{
+     
+        height: 92vh;
+    }
+}
+@media(min-width:1024px){
+    .aim{
+     /* background-color: rebeccapurple; */
+        height: fit-content;
+    }
+}
+@media(max-width:650px){
+    .aim{
+        height: fit-content;
+        padding: 10px;
+        /* background-color: red; */
+    }
+    .aim-heading{
+        font-size: 1rem;
+       padding-top: 15px;
+    }
+    .vission_mission{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     
+    }
+    .ourVision{
+        margin-top: 20px;
+        padding: 10px;
+        height: 300px;
+        width: 80%;
+        margin-right: 55px;
+       
+       
+    }
+    .ourVision-details-text{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .light{
+        padding: 10px;
+        margin-right: 10px;
+    }
+    .objective{
+        padding: 10px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        height: fit-content;
+    }
+   
+    .objective-details ul li{
+        /* line-height: 10px; */
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .light-goal{
+        padding: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        height: 80px;
+    }
+}
+@media(max-width:450px){
+    .ourVision{
+     margin-right: 42px;
+     /* padding: 20px; */
+     /* background-color: red; */
+     height: fit-content;
+    
+    }
+    .ourVision_text{
+        font-size: 1.1rem;
+    }
+}
+@media(max-width:280px){
+    .light-goal{
+        padding: 20px;
+        height: 40px;
+        width: 30px;
+    }
+    .light{
+        padding: 20px;
+        height: 40px;
+        width: 30px;
+    }
+    .objective-details ul li{
+        line-height: 20px;
+    }
+    .objective_text{
+        font-size: 1.1rem;
+    }
+    .ourVision_text{
+        font-size: 1.1rem;
+    }
+    .ourVision{
+        height: fit-content;
+    }
+}

@@ -1,0 +1,67 @@
+
+.meeting{
+    background:linear-gradient(#08394e96,#08394e3f), url(./meeting-img/appointment.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* position: relative; */
+    width: 100%;
+}
+/* .meeting::after{
+    content: "";
+    background-color: rgba(0, 0, 255, 0.493);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0.25;
+} */
+.meeting p i{
+    letter-spacing: 3px;
+}
+.meeting-text{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 550;
+    margin-top: 20px;
+    
+}
+#meeting-btn{
+    width: 250px;
+    padding: 10px 30px;
+    border: none;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 10px;
+    background: linear-gradient(180deg,#FFD809 0% , rgba(252,121,0,0.5) 100%);
+    /* background-color: red; */
+    
+}
+#meeting-btn:hover{
+    background: linear-gradient(180deg,#ffd609cd 0% , rgba(252, 122, 0, 0.871) 100%);
+    transition: 0.4s ease-in-out;
+}
+@media(max-width:760px){
+    .meeting-text{
+        font-size: 1.5rem;
+        font-weight: 550;
+        margin-top: 20px;
+        
+    }
+    .meeting button{
+        padding: 8px 20px;
+        margin-top: 10px;
+        font-weight: 600;
+        font-size: .6rem;
+       
+    }
+}

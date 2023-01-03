@@ -1,0 +1,415 @@
+
+.apply-bg{
+    background:linear-gradient(#08394e96,#08394e3f), url(./apply-img/apply.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.apply-bg h2{
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.apply-bg div{
+    display: flex;
+    align-items: center;
+    border: 4px solid var(--yellow-text);
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+.apply-bg div p{
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.apply-arrow-down{
+    color: #fff;
+    font-size: 40px;
+    margin-left: 10px;
+}
+.apply-info{
+    /* background-color: red; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.apply-info h3{
+    text-align: center;
+    font-size: 1.7rem;
+    color: var(--yellow-text);
+
+}
+.apply-info-details{
+    display: flex;
+    justify-content: center;
+    /* background-color: yellow; */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.apply-user-info{
+   /* background-color: rebeccapurple; */
+   margin-right: 30px;
+   width: 30%;
+}
+form{
+    /* background-color: gray; */
+    width: 100%;
+    
+}
+.apply-user-info form p{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#apply-input{
+    border: 3px solid rgba(128, 128, 128, 0.318);
+    background-color: #fff;
+    border-radius: 5px;
+    width: 70%;
+
+}
+label{
+    font-size: 1.2rem;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+#drop-down-bnt{
+    width: 75%;
+    margin-left: 20px;
+    background: #fff;
+    padding: 12px 5px;
+    margin-bottom: 30px;
+    border: 3px solid rgba(128, 128, 128, 0.318);
+    outline: none;
+    font-size: 1rem;
+}
+option{
+    margin-top: 10px;
+    background-color: var(--yellow-text);
+    color: #fff;
+    height: 50px;
+}
+.arrow-down{
+    margin-left: 300px;   
+}
+#apply-btn{
+    width: 50%;
+    margin-left: 83px;
+    
+}
+.apply-fees{
+    background-color: #fff;
+    margin-top: 30px;
+    border: 4px solid rgba(128, 128, 128, 0.318);
+    /* box-shadow:2px 3px 25px rgba(0, 0, 0, 0.377); */
+    border-radius: 5px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.apply-fees div{
+    text-align: center;
+}
+.apply-fees div p:nth-child(1){
+    font-weight: 600;
+    
+}
+.apply-fees div p:nth-child(2){
+    color: gray;
+    font-weight: 800;
+    margin-top: 15px;
+}
+.apply-fees h4{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: var(--yellow-text);
+    
+}
+.apply-dropdown{
+    background-color: var(--yellow-text);
+    width: 70%;
+    padding: 10px;
+    margin-left: 23px;
+    margin-top: -30px;
+    border-radius: 5px;
+}
+.apply-dropdown p{
+    background-color: #fff;
+    margin-top: 10px;
+}
+@media(max-width:1150px){
+    .apply-info-details{
+        display: flex;
+        justify-content: center;
+        /* flex-direction: column; */
+        width: 93%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+       
+    }
+    .apply-user-info{
+       
+        /* margin-right: 30px; */
+        width:50%;
+       
+        margin-left: 20px;
+     }
+     form{
+        
+        width: 96%;
+        
+    }
+    label{
+        margin-left: 22px;
+        margin-bottom: 10px;
+    }
+    #apply-input{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    #drop-down-bnt{
+        width: 93%;
+        margin-left: 15px;
+        margin-bottom: 30px;
+        font-size: 1rem;
+    }
+    #apply-btn{
+        width: 50%;
+        margin-left: 88px;
+        
+    }
+    .apply-fees{
+        margin-top: 30px;
+        width: 35%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 10px;
+        
+    }
+}
+@media(max-width:650px){
+    .apply-info-details{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        /* background-color: rebeccapurple; */
+    }
+    .apply-user-info{
+       
+        /* margin-right: 30px; */
+        width:100%;
+        /* background-color: green; */
+     }
+     form{
+        /* background-color: gray; */
+        width: 96%;
+        
+    }
+    #apply-input{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    label{
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+    #drop-down-bnt{
+        width: 93%;
+        margin-left: 15px;
+        margin-bottom: 30px;
+        font-size: 1rem;
+    }
+    #apply-btn{
+        width: 50%;
+        margin-left: 115px;
+        
+    }
+    .apply-fees{
+        margin-top: 30px;
+        width: 92%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 10px;
+        
+    }
+    .apply-fees div p:nth-child(2){
+        font-weight: 800;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .apply-fees h4{
+       
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.5rem;
+        color: var(--yellow-text);
+        
+    }
+}
+@media(max-width:450px){
+    .apply-info-details{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
+    .apply-user-info{
+       
+        /* margin-right: 30px; */
+        width:100%;
+     }
+     form{
+        /* background-color: gray; */
+        width: 94%;
+        
+    }
+    #apply-input{
+        border: 3px solid rgba(128, 128, 128, 0.318);
+        background-color: #fff;
+        border-radius: 5px;
+        width: 90%;
+        
+    
+    }
+    label{
+        font-size: 1rem;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    #drop-down-bnt{
+        width: 94%;
+        margin-left: 5px;
+        background: #fff;
+        padding: 12px 5px;
+        margin-bottom: 30px;
+        font-size: .9rem;
+    }
+    option{
+        margin-top: 10px;
+        background-color: var(--yellow-text);
+        color: #fff;
+        width: 94%;
+    }
+    #apply-btn{
+        width: 50%;
+        margin-left: 80px;
+        
+    }
+    .apply-fees{
+        margin-top: 30px;
+        width: 93%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 10px;
+        
+    }
+    .apply-fees div p:nth-child(2){
+        font-weight: 800;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .apply-fees h4{
+       
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.5rem;
+        color: var(--yellow-text);
+        
+    }
+    .apply-bg h2{
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+       
+        }
+        .apply-bg div{
+            padding: 12px 9px;
+        }
+        .apply-bg div p{
+            color: #fff;
+            font-size: 1.6rem;
+            font-weight: 600;
+        }
+        .apply-arrow-down{
+            color: #fff;
+            font-size: 30px;
+            margin-left: 0px;
+        }
+
+}
+@media(max-width:280px){
+    .apply-info-details{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
+    .apply-info h3{
+        font-size: 1.3rem;
+    }
+    form{
+        width: 85%;
+        margin-left: -15px;
+        
+    }
+    #apply-input{
+        border: 3px solid rgba(128, 128, 128, 0.318);
+        background-color: #fff;
+        border-radius: 5px;
+        width: 90%;
+    
+    }
+    label{
+        font-size: 1rem;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+    #apply-btn{
+        width: 70%;
+        margin-left: 25px;
+        
+    }
+    .apply-bg h2{
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    }
+    .apply-bg div{
+        padding: 10px 8px;
+        margin-left: -80px;
+    }
+    .apply-bg div p{
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .apply-arrow-down{
+        color: #fff;
+        font-size: 30px;
+        margin-left: 0px;
+    }
+}

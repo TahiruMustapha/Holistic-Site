@@ -1,0 +1,128 @@
+.services{
+    /* background-image: url(../Services/Services-img/9650007_7566.jpg);
+    background-position: center;
+    background-size: cover; */
+    height: fit-content;
+    padding: 80px;
+    position: relative;
+  
+}
+.services::before{
+    content: "";
+    background-image: url(../Services/Services-img/9650007_7566.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0.25;
+}
+.services h1{
+    text-align: center;
+    color: var(--yellow-text);
+}
+.services-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.services-details div{
+    box-shadow:2px 3px 25px rgba(0, 0, 0, 0.377);
+    padding: 10px;
+    width: 250px;
+    height: 350px;
+}
+.services-details div h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.services-details div p{
+    line-height: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #444;
+}
+@media(max-width:1150px){
+.services-details{
+    /* background-color: red; */
+    width: 100%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    margin-left: 50px;
+}
+.services-details div{
+    width: 300px;
+}
+.services{
+  
+    height: 90vh;
+}
+}
+@media(min-width:1024px){
+    .services{
+        /* background-color: aqua; */
+        height: fit-content;
+    }
+}
+@media(max-width:760px){
+    .services-details{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+        /* background-color: red; */
+        
+    }
+    .services-details div{
+        padding: 5px;
+        width: 80%;
+        height: fit-content;
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+    .services-details div h2{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .services{
+  
+        height: fit-content;
+        padding: 10px;
+
+    }
+}
+@media(max-width:650px){
+    .services-details div{
+        /* padding: 5px;
+        width: 80%;
+        height: fit-content;
+        margin-top: 20px;
+        padding-bottom: 10px; */
+        
+        margin-right: 115px;
+    }
+}
+@media(max-width:450px){
+    .services-details div{
+        /* background-color: red; */
+        margin-right: 120px;
+    }
+}
+@media(max-width:280px){
+ .services h1{
+    font-size: 1.3rem;
+ }
+ .services-details h2{
+    font-size: 1.2rem;
+ }
+ .services-details p{
+    font-size: 0.8rem;
+ }
+}

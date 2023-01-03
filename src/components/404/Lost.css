@@ -1,0 +1,74 @@
+.lost{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:baseline;
+    justify-content: center;
+    background-image: url(./404-img/404.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.lost div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.lost h1{
+    color: #fff;
+    position: absolute;
+    top: 14%;
+    left: 40%;
+    right: 50%;
+    font-size: 2.3rem;
+    width: 18%;
+}
+.lost-btn{
+    background: #fff;
+    width: 200px;
+    position: absolute;
+    bottom: 17px;
+    left: 37.5%;
+    right: 50%;
+    width: 15.5%;
+    padding: 20px 50px;
+    height: 75.5px;  
+}
+.lost-btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: 750;
+    font-size: 1rem;
+}
+.lost-btn:hover{
+    background: #fff;
+    cursor: pointer;
+}
+@media(max-width:450px){
+    .lost{
+        height: 50vh;
+        width: 100%;
+    }
+    .lost h1{
+       
+        top: 5%;
+        left: 8%;
+        right: 50%;
+        font-size: 2rem;
+        /* background-color: red; */
+        width: 280px;
+    }
+    .lost-btn{
+        width: 200px;
+        bottom: 50px;
+        left: 7%;
+        right: 50%;
+        width: 55%;
+        padding: 10px 30px;
+        height: 60px;  
+        /* background-color: red; */
+        
+    }
+}

@@ -1,0 +1,197 @@
+/* .mainAppointment2{
+    background-color: gray;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 341%;
+    left: 0;
+    right: 0;
+}
+.appointment{
+    background-color:var(--green1);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    align-items: center;
+    height: 60vh;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.appointment h3{
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+.appointment form{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 30px;
+   
+}
+#appointment-input-row{
+    width: 88%;
+    padding-left: 12px;
+  
+    margin-left: 40px;
+   
+}
+
+#appointment-input-row input{
+ width: 355px;
+ background-color: #fff;
+ margin-bottom: 20px;
+ border-radius: 5px;
+ border: none;
+ outline: none;
+}
+#appointment-input-row input:hover{
+    border: none;
+}
+.appointment form textarea{
+    background-color:#fff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-left: 23px;
+    width: 745px;
+    border: none;
+    outline: none;
+}
+.appointment form textarea:hover{
+    border: none;
+}
+#issue-box{
+    background-color: #fff;
+    width: 740px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    margin-left: 30px;
+}
+#issue-box:hover{
+    border: none;
+}
+.appoint-btn{
+    width: 400px;
+    margin-left: 40px;
+}
+.close{
+    font-size: 20px;
+    background-color:var(--yellow-text);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.close:hover{
+    background-color: rgba(255, 255, 0, 0.811);
+}.mainAppointment{
+    background-color: gray;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 15%;
+    left: 0;
+    right: 0;
+}
+.appointment{
+    background-color:var(--green1);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    align-items: center;
+    height: 60vh;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.appointment h3{
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+.appointment form{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+#appointment-input-row{
+    width: 88%;
+    padding-left: 12px;
+  
+    margin-left: 40px;
+   
+}
+
+#appointment-input-row input{
+ width: 355px;
+ background-color: #fff;
+ margin-bottom: 20px;
+ border-radius: 5px;
+ border: none;
+ outline: none;
+}
+#appointment-input-row input:hover{
+    border: none;
+}
+.appointment form textarea{
+    background-color:#fff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-left: 23px;
+    width: 745px;
+    border: none;
+    outline: none;
+}
+.appointment form textarea:hover{
+    border: none;
+}
+#issue-box{
+    background-color: #fff;
+    width: 740px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    margin-left: 30px;
+}
+#issue-box:hover{
+    border: none;
+}
+.appoint-btn{
+    width: 400px;
+    margin-left: 40px;
+}
+.close{
+    font-size: 20px;
+    background-color:var(--yellow-text);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.close:hover{
+    background-color: rgba(255, 255, 0, 0.811);
+} */
