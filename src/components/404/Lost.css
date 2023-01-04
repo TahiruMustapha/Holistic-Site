@@ -9,12 +9,15 @@
     background-size: cover;
     background-position: center;
     position: relative;
+   
 }
 .lost div{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+   
+    
 }
 .lost h1{
     color: #fff;
@@ -23,18 +26,18 @@
     left: 40%;
     right: 50%;
     font-size: 2.3rem;
-    width: 18%;
+    width: 22%;
 }
 .lost-btn{
     background: #fff;
     width: 200px;
     position: absolute;
-    bottom: 17px;
-    left: 37.5%;
+    bottom: 12px;
+    left: 36.8%;
     right: 50%;
     width: 15.5%;
     padding: 20px 50px;
-    height: 75.5px;  
+    height: 70px;  
 }
 .lost-btn a{
     text-decoration: none;
